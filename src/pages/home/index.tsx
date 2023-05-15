@@ -31,21 +31,20 @@ export const Home = (): JSX.Element => {
         <Container>
           <HeaderContent>
             <Text as="h1" type="heading1" color="grey5">
-            Desenvolvedor Full Stack{""}
+              Desenvolvedor Full Stack{""}
             </Text>
             <Text type="body1" color="grey6">
               Sou um desenvolvedor Full Stack formado pela Kenzie Academy
               Brasil, com sólida experiência em tecnologias como Python,
               JavaScript, Node.Js, Django, PostgreSQL, React.JS, TypeScript,
-              HTML e CSS. 
+              HTML e CSS.
             </Text>
             <Text type="body1" color="grey6">
-            Também possuo conhecimentos em metodologias ágeis,
-              como o Trello, que utilizo para gerenciar meus projetos.
+              Também possuo conhecimentos em metodologias ágeis, como o Trello,
+              que utilizo para gerenciar meus projetos.
             </Text>
             <Text type="body1" color="grey6">
-            Além
-              disso, falo inglês fluente e tenho conhecimentos básicos de
+              Além disso, falo inglês fluente e tenho conhecimentos básicos de
               espanhol, o que me permite colaborar com colegas de trabalho de
               diferentes países e culturas.
             </Text>
@@ -63,7 +62,7 @@ export const Home = (): JSX.Element => {
       <StackSection id="tecnologias">
         <Container>
           <Text as="h4" type="heading3" color="grey1">
-            Ferramentas que domino
+            Ferramentas que domino:
           </Text>
           <StackCards>
             {stackData.map((stack, index) => (
@@ -80,9 +79,9 @@ export const Home = (): JSX.Element => {
                 Vamos trocar uma ideia?
               </Text>
               <Text as="p" type="body1" color="grey2">
-                No linkedIn sempre estou compartilhando meus processos diários
-                para desenvolver esses projetos e estou disposto a trocar
-                algumas ideias por lá
+                No LinkedIn, compartilho regularmente minhas atividades diárias
+                relacionadas ao desenvolvimento desses projetos e estou aberto a
+                trocar ideias na plataforma.
               </Text>
               <Button
                 type="primary"
@@ -98,11 +97,11 @@ export const Home = (): JSX.Element => {
                 Projetos
               </Text>
               <Text as="h3" type="heading2" color="grey1">
-                Originalidade e{" "}
+                Aqui estão todos os{" "}
                 <Text as="span" color="brand1" type="heading2">
-                  dedicação
+                  Projetos
                 </Text>{" "}
-                em cada detalhe
+                em cada detalhe:
               </Text>
               <Project />
             </ProjectsAreaContent>
