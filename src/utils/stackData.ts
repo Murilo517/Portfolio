@@ -4,9 +4,11 @@ import imgJS from "../public/static/img/stack/js.svg";
 import imgNode from "../public/static/img/stack/node.svg";
 import imgStyled from "../public/static/img/stack/styled.svg";
 import imgReact from "../public/static/img/stack/react.svg";
-import { FaVuejs } from "react-icons/fa";
 import { SiTypescript } from "react-icons/si";
 import { FaDocker } from "react-icons/fa";
+import { DiDjango } from "react-icons/di";
+import { DiPython } from "react-icons/di";
+import { SiPostgresql} from 'react-icons/si'
 
 export const stackData = [
   {
@@ -33,7 +35,9 @@ export const stackData = [
     title: "React",
     img: imgReact,
   },
-  { title: "Vuejs", img: FaVuejs },
   { title: "TypeScript", img: SiTypescript },
   { title: "Docker", img: FaDocker },
+  { title: "Postgresql", img: SiPostgresql },
+  { title: "Python", img: DiPython },
+  { title: "Django", img: DiDjango },
 ];

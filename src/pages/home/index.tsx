@@ -24,7 +24,6 @@ import {
   ProjectAreaWrapperColumns,
 } from "./style";
 
-
 export const Home = (): JSX.Element => {
   return (
     <main>
@@ -32,12 +31,23 @@ export const Home = (): JSX.Element => {
         <Container>
           <HeaderContent>
             <Text as="h1" type="heading1" color="grey5">
-              Criando experiências por meio da tecnologia{" "}
+            Desenvolvedor Full Stack{""}
             </Text>
             <Text type="body1" color="grey6">
-              Sou estudante de programação na Kenzie Academy Brasil, participei
-              de diversos projetos resolvendo problemas de alto nível e
-              desenvolvendo habilidades
+              Sou um desenvolvedor Full Stack formado pela Kenzie Academy
+              Brasil, com sólida experiência em tecnologias como Python,
+              JavaScript, Node.Js, Django, PostgreSQL, React.JS, TypeScript,
+              HTML e CSS. 
+            </Text>
+            <Text type="body1" color="grey6">
+            Também possuo conhecimentos em metodologias ágeis,
+              como o Trello, que utilizo para gerenciar meus projetos.
+            </Text>
+            <Text type="body1" color="grey6">
+            Além
+              disso, falo inglês fluente e tenho conhecimentos básicos de
+              espanhol, o que me permite colaborar com colegas de trabalho de
+              diferentes países e culturas.
             </Text>
             <HeaderButtonsArea>
               <Button as="a" href="#projetos">
