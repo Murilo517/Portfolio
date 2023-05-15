@@ -37,7 +37,7 @@ export const stackData = [
   },
   { title: "TypeScript", img: SiTypescript },
   { title: "Docker", img: FaDocker },
-  { title: "Postgresql", img: SiPostgresql },
+  { title: "PostgreSQL", img: SiPostgresql },
   { title: "Python", img: DiPython },
   { title: "Django", img: DiDjango },
 ];

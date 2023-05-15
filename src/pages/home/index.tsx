@@ -31,7 +31,7 @@ export const Home = (): JSX.Element => {
         <Container>
           <HeaderContent>
             <Text as="h1" type="heading1" color="grey5">
-              Desenvolvedor Full Stack{""}
+              Sobre mim:{""}
             </Text>
             <Text type="body1" color="grey6">
               Sou um desenvolvedor Full Stack formado pela Kenzie Academy
