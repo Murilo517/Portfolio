@@ -97,11 +97,11 @@ export const Home = (): JSX.Element => {
                 Projetos
               </Text>
               <Text as="h3" type="heading2" color="grey1">
-                Aqui estão todos os{" "}
+                Aqui estão alguns dos meus{" "}
                 <Text as="span" color="brand1" type="heading2">
-                  Projetos
+                  Projetos Individuais
                 </Text>{" "}
-                em cada detalhe:
+                , com todos os detalhes:
               </Text>
               <Project />
             </ProjectsAreaContent>
