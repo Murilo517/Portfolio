@@ -99,7 +99,7 @@ export const Home = (): JSX.Element => {
               <Text as="h3" type="heading2" color="grey1">
                 Aqui estão alguns dos meus{" "}
                 <Text as="span" color="brand1" type="heading2">
-                  Projetos Individuais
+                  Projetos
                 </Text>{" "}
                 , com todos os detalhes:
               </Text>
